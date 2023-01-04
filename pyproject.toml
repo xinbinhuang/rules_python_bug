@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "rules-python-bug"
+version = "0.1.0"
+description = ""
+authors = ["Xinbin Huang <bin.huangxb@gmail.com>"]
+readme = "README.md"
+packages = [{include = "rules_python_bug"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+flake8 = "^6.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
